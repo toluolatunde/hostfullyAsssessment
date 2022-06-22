@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" name="WebAppAutomation Suite"
+       annotations="JDK" parallel="tests">
+
+    <test name="Login">
+        <classes>
+            <class name="com.webapp.testcases.ValidateLogin" />
+        </classes>
+    </test>
+
+
+
+
+
+</suite>
